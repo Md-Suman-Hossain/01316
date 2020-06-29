@@ -58,8 +58,8 @@ logo = """
 \033[1;91m=======================================
 \033[1;96mAuthor  \033[1;93m: \033[1;98mSuman hossain
 \033[1;96mInstagram \033[1;93m: \033[1: md_suman
-\033[1;96mFacebook  \033[1;93m: \033[1: Easin.Official0
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/SmartBoyEasin/SmartBoy
+\033[1;96mFacebook  \033[1;93m: \033[1: md.suman.32
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/md-suman-hossain/Suman
 \033[1;91m======================================="""
 
 def tik():
@@ -90,7 +90,7 @@ print  """\033[1;91m
  
 \033[1;96mAuthor  \033[1;93m: \033[1;92mmd suman hossain
 \033[1;96mInstagram \033[1;93m: \033[1;92mmd-suman
-\033[1;96mFacebook  \033[1;93m: \033[1;92m Easin.Official0
+\033[1;96mFacebook  \033[1;93m: \033[1;92m md.suman.32
 \033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/md-suman-hossain/Suman
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="

